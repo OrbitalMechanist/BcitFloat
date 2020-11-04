@@ -20,7 +20,7 @@ int main()
     if (inString.length() != 10) {
         std::cout << "INCORRECT INPUT" << std::endl;
         std::cout << "INCORRECT LENGTH" << std::endl;
-        system("pause");
+        system("pause"); //get rid of these and replace them with some other stopper if you want to use it on non-Windows systems.
         quick_exit(1);
     }
     for (size_t i = 0; i < 10; i++)
